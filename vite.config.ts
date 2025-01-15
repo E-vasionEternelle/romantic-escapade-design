@@ -4,9 +4,11 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/romantic-escapade-design/', // Replace with your repo name
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
 })
+
